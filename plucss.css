@@ -368,11 +368,12 @@ input[type="submit"] {
 	color: #fff;
 	transition-duration: .2s;
 }
+/* hover is fading 84% bg color  */
 button:hover,
 input[type="button"]:hover,
 input[type="reset"]:hover,
 input[type="submit"]:hover {
-	background-color: #555;
+	filter: brightness(84%);
 	transition-duration: .2s;
 }
 button[disabled],
@@ -393,24 +394,12 @@ input[type="submit"].blue {
 	background-color: #258fd6;
 	color: #eee;
 }
-button.blue:hover,
-input[type="button"].blue:hover,
-input[type="reset"].blue:hover,
-input[type="submit"].blue:hover {
-	background-color: #1f77b1;
-}
 button.green,
 input[type="button"].green,
 input[type="reset"].green,
 input[type="submit"].green {
 	background-color: #239c56;
 	color: #eee;
-}
-button.green:hover,
-input[type="button"].green:hover,
-input[type="reset"].green:hover,
-input[type="submit"].green:hover {
-	background-color: #1c7943;
 }
 button.orange,
 input[type="button"].orange,
@@ -419,12 +408,6 @@ input[type="submit"].orange {
 	background-color: #da7418;
 	color: #eee;
 }
-button.orange:hover,
-input[type="button"].orange:hover,
-input[type="reset"].orange:hover,
-input[type="submit"].orange:hover {
-	background-color: #b46014;
-}
 button.red,
 input[type="button"].red,
 input[type="reset"].red,
@@ -432,24 +415,12 @@ input[type="submit"].red {
 	background-color: #e43d29;
 	color: #eee;
 }
-button.red:hover,
-input[type="button"].red:hover,
-input[type="reset"].red:hover,
-input[type="submit"].red:hover {
-	background-color: #bc2818;
-}
 button.yellow,
 input[type="button"].yellow,
 input[type="reset"].yellow,
 input[type="submit"].yellow {
 	background-color: #e0a800;
 	color: #eee;
-}
-button.yellow:hover,
-input[type="button"].yellow:hover,
-input[type="reset"].yellow:hover,
-input[type="submit"].yellow:hover {
-	background-color: #d39e00;
 }
 
 /* ---------- NAVIGATION ---------- */
@@ -698,7 +669,7 @@ input[type="submit"].yellow:hover {
 	transition-duration: .2s;
 }
 .button:hover {
-	background-color: #555;
+	filter: brightness(84%);
 	text-decoration: none;
 	transition-duration: .2s;
 }
@@ -706,36 +677,21 @@ input[type="submit"].yellow:hover {
 	background-color: #258fd6;
 	color: #eee;
 }
-.button.blue:hover {
-	background-color: #1f77b1;
-}
 .button.green {
 	background-color: #239c56;
 	color: #eee;
-}
-.button.green:hover {
-	background-color: #1c7943;
 }
 .button.orange {
 	background-color: #da7418;
 	color: #eee;
 }
-.button.orange:hover {
-	background-color: #b46014;
-}
 .button.red {
 	background-color: #e43d29;
 	color: #eee;
 }
-.button.red:hover {
-	background-color: #bc2818;
-}
 .button.yellow {
 	background-color: #e0a800;
 	color: #eee;
-}
-.button.yellow:hover {
-	background-color: #d39e00;
 }
 .progress {
 	background-color: #fff;
