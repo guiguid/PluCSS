@@ -387,41 +387,6 @@ textarea[disabled]:hover {
 	background-color: #ddd;
 	color: #aaa;
 }
-button.blue,
-input[type="button"].blue,
-input[type="reset"].blue,
-input[type="submit"].blue {
-	background-color: #258fd6;
-	color: #eee;
-}
-button.green,
-input[type="button"].green,
-input[type="reset"].green,
-input[type="submit"].green {
-	background-color: #239c56;
-	color: #eee;
-}
-button.orange,
-input[type="button"].orange,
-input[type="reset"].orange,
-input[type="submit"].orange {
-	background-color: #da7418;
-	color: #eee;
-}
-button.red,
-input[type="button"].red,
-input[type="reset"].red,
-input[type="submit"].red {
-	background-color: #e43d29;
-	color: #eee;
-}
-button.yellow,
-input[type="button"].yellow,
-input[type="reset"].yellow,
-input[type="submit"].yellow {
-	background-color: #e0a800;
-	color: #eee;
-}
 
 /* ---------- NAVIGATION ---------- */
 
@@ -673,23 +638,23 @@ input[type="submit"].yellow {
 	text-decoration: none;
 	transition-duration: .2s;
 }
-.button.blue {
+.blue {
 	background-color: #258fd6;
 	color: #eee;
 }
-.button.green {
+.green {
 	background-color: #239c56;
 	color: #eee;
 }
-.button.orange {
+.orange {
 	background-color: #da7418;
 	color: #eee;
 }
-.button.red {
+.red {
 	background-color: #e43d29;
 	color: #eee;
 }
-.button.yellow {
+.yellow {
 	background-color: #e0a800;
 	color: #eee;
 }
